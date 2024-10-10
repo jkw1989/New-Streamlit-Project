@@ -7,4 +7,4 @@ with col1:
     st.image("Assets/1597889965340.png", width=230)
 with col2:
     st.title("James Wood",anchor=False)
-    st.write("This is my byline")
+    st.write("Data Visualization Design Engineer @ The Kraft Heinz Company | Tableau, Power BI, Design, Data Visualization")
