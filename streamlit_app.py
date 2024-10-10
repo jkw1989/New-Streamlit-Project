@@ -29,4 +29,7 @@ pg = st.navigation(
         "Projects": [project_1_page, project_2_page],
     }
 )
+
+
+
 pg.run()
