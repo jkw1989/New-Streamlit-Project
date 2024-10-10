@@ -1,8 +1,11 @@
 import streamlit as st
 
+from Forms.contact import contact_form
+
+
 @st.dialog("Contact Me")
 def show_contact_form():
-    st.text_input("First Name")
+    contact_form
 
 
 #Hero Section
