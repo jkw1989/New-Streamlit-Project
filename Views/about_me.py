@@ -1,3 +1,10 @@
 import streamlit as st
 
-st.title("About Me")
+#Hero Section
+
+col1, col2 = st.columns(2, gap="small",vertical_alignment="center")
+with col1:
+    st.image("Assets/1597889965340.png", width=230)
+with col2:
+    st.title("James Wood",anchor=False)
+    st.write("This is my byline")
