@@ -30,6 +30,7 @@ pg = st.navigation(
     }
 )
 
-
+st.logo("Assets/Screenshot 2024-10-09 at 9.12.22 PM.png")
+st.sidebar.text("Made with 💖 by me")
 
 pg.run()
