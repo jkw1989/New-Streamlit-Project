@@ -15,4 +15,4 @@ textColor = "#fff"
 toolbarMode = "minimal"
 
 [server]
-runOnSave = True
+runOnSave = true
