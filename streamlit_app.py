@@ -1,7 +1,12 @@
 import pandas as pd
 import streamlit as st 
 
+
+
 # --- Page Setup 
+
+st.set_page_config(layout="centered")
+
 
 about_page = st.Page(
     page="Views/about_me.py",
@@ -20,12 +25,18 @@ project_2_page = st.Page(
     icon=":material/smart_toy:",
 )
 
+project_3_page = st.Page(
+    page="Views/experiment.py",
+    title="Experiments",
+    icon=":material/experiment:",
+)
+
 # --- Navigation
 
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page],
+        "Projects": [project_1_page, project_2_page, project_3_page],
     }
 )
 
