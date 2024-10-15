@@ -6,8 +6,6 @@ import plotly.express as px
 # --- Page Setup 
 
 
-
-
 about_page = st.Page(
     page="Views/about_me.py",
     title="About Me",
