@@ -5,7 +5,7 @@ import streamlit as st
 
 # --- Page Setup 
 
-st.set_page_config(layout="centered")
+
 
 
 about_page = st.Page(
@@ -31,12 +31,18 @@ project_3_page = st.Page(
     icon=":material/experiment:",
 )
 
+project_4_page = st.Page(
+    page="Views/tableau_alternative.py",
+    title="Tableau Alternative",
+    icon=":material/analytics:",
+)
+
 # --- Navigation
 
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page, project_3_page],
+        "Projects": [project_1_page, project_2_page, project_3_page, project_4_page],
     }
 )
 
