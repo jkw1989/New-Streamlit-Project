@@ -8,7 +8,7 @@ iris_df = px.data.iris()
 st.title("Iris Dataset")
 
 #---- KPI
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
     st.metric(label="My Metric!",value="75%",delta="-1,5%")
@@ -19,6 +19,8 @@ with col2:
 
 with col3:
     st.metric(label="My Metric!",value="75%",delta="-1,5%")
+
+
 
 
 st.divider()
