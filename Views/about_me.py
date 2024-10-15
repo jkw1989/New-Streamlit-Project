@@ -28,6 +28,7 @@ st.write(
     - Power BI development and design work
     - Data Visualization design and development
     - Being a team player!
+    - Other cool stuff!
     """
 )
 
@@ -38,6 +39,6 @@ st.write(
     - Engineering: Tableau, Power BI DAX, SQL, Streamlit?
     - Data Visualization: Tableau, Power BI, Figma, RAW Graphs
     - Miscelaneous: Adobe Illustrator, Streamlit
-    - The soft stuff: Hard work, project management
+    - The soft stuff: Hard work?
     """
 )
