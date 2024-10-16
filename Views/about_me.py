@@ -24,8 +24,8 @@ st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
 st.write(
     """
-    - Tableau design and engineering
-    - Power BI development and design work
+    - Tableau creator and breaker
+    - Power BI wrangler
     - Data Visualization design and development
     - Being a team player!
     - Other cool stuff!
@@ -38,7 +38,7 @@ st.write(
     """
     - Engineering: Tableau, Power BI DAX, SQL, Streamlit?
     - Data Visualization: Tableau, Power BI, Figma, RAW Graphs
-    - Miscelaneous: Adobe Illustrator, Streamlit
+    - Miscelaneous: wood working and skiiing?
     - The soft stuff: Hard work?
     """
 )

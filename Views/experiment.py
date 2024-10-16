@@ -8,12 +8,11 @@ iris_df = px.data.iris()
 st.title("Iris Dataset")
 
 #---- KPI
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.metric(label="My Metric!",value="75%",delta="-1,5%")
-    style_metric_cards(border_color="FFFFF")
-    style_metric_cards(border_size_px=5)
+    style_metric_cards(border_color="FFFFF", border_size_px=3)
 
 with col2:
     st.metric(label="My Metric!",value="75%",delta="1,5%")
@@ -36,7 +35,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     x_axis = st.selectbox("Choose a varable for the x axis",iris_df.columns,index=0)
 with col2: 
-    y_axis = st.selectbox("Choose a varable for the y axis",iris_df.columns,index=0)
+    y_axis = st.selectbox("Choose a varable for the y axis",iris_df.columns,index=1)
 with col3:
     chart_type = st.selectbox("Select chart type:",("Scatter Plot", "Line Chart","Bar Chart"))
 
