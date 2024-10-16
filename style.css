@@ -1,6 +1,17 @@
 div.stMetric {
-    background-color: #EEEEEE;
-    border: 2px solid #CCCCCC;
-    padding: 5% 5% 5% 10%;
-    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #DEDEDE;
+    padding: 16px 24px 16px 24px;
+    border-radius: 2px;
+    font-style: italic;
+    font-style: bold;
+}
+
+div.stMetricValue {
+    font-size: 60px;
+    border: 1px solid #DEDEDE;
+}
+
+div.st-emotion-cache-17c4ue{
+    font-size: 60px;    
 }
