@@ -13,6 +13,7 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.metric(label="My Metric!",value="75%",delta="-1,5%")
     style_metric_cards(border_color="FFFFF")
+    style_metric_cards(border_size_px=5)
 
 with col2:
     st.metric(label="My Metric!",value="75%",delta="1,5%")

@@ -53,6 +53,11 @@ project_8_page = st.Page(
     title="Scatter Plots",
     icon=":material/scatter_plot:",
 )
+project_9_page = st.Page(
+    page="Views/kpi_cards.py",
+    title="KPI Cards",
+    icon=":material/dashboard_customize:",
+)
 
 # --- Navigation
 
@@ -60,7 +65,7 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Projects": [project_1_page, project_2_page, project_3_page, project_4_page],
-        "Charts": [project_5_page,project_6_page,project_7_page,project_8_page],
+        "Charts": [project_5_page,project_6_page,project_7_page,project_8_page,project_9_page],
     }
 )
 
